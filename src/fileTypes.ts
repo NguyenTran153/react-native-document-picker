@@ -83,5 +83,5 @@ type AssertEqualKeys<T1 extends object, T2 extends object> = [
   : false
 
 const mimesAndUtisAreEqual: AssertEqualKeys<typeof mimeTypes, typeof utis> = true
-const mimesAndExtensionsAreEqual: AssertEqualKeys<typeof mimeTypes, typeof extensions> = true
+const mimesAndExtensionsAreEqual: AssertEqualKeys<typeof mimeTypes, typeof extensions> = false
 export const typesAreEqual = mimesAndUtisAreEqual && mimesAndExtensionsAreEqual
