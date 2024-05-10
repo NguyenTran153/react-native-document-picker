@@ -13,6 +13,9 @@ const mimeTypes = Object.freeze({
   xls: 'application/vnd.ms-excel',
   xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
   zip: 'application/zip',
+  htm: 'text/htm',
+  html: 'text/html',
+  json: 'application/json'
 } as const)
 
 const utis = Object.freeze({
@@ -30,6 +33,9 @@ const utis = Object.freeze({
   xls: 'com.microsoft.excel.xls',
   xlsx: 'org.openxmlformats.spreadsheetml.sheet',
   zip: 'public.zip-archive',
+  htm: 'public.htm',
+  html: 'public.html',
+  json: 'public.json'
 } as const)
 
 const extensions = Object.freeze({
